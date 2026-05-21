@@ -189,7 +189,8 @@ botaocadastro.addEventListener("click", function (event) {
         "===== RELATÓRIO FINAL =====" +
         "\nTotal de vinhos cadastrados: " + contador +
         "\nTotal com estoque baixo: " + (totalEstoqueBaixo + 1) +  // O + 1 conta com o Sauvignon Blanc que já tem um estoque baixo.
-        "\nEstoque total: " + estoqueTotal                         // se o estoque for baixo do vinho cadastrado, ele soma com o 1 do padrão.
+        "\nEstoque total: " + estoqueTotal +                        // se o estoque for baixo do vinho cadastrado, ele soma com o 1 do padrão.
+        "\nVeja os detalhes no console!"
     );
 });
 

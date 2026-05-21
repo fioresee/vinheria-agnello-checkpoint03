@@ -1,8 +1,9 @@
 :root{
     --cor-texto: #ffffff;
-    --cor-primária: rgb(221, 198, 122);
-    --cor-secundária: #4A0E17;
-    --cor-cards: rgb(175, 173, 173);
+    --cor-primária: #efc8b1;
+    --cor-secundária: #514644;
+    --cor-cards: rgb(255, 255, 255);
+    --preto: #000000;
 }
 
 *{
@@ -17,7 +18,7 @@ header{
     align-items: center;
     background-color: var(--cor-secundária);
     color: var(--cor-texto);
-    box-shadow: 0 5px 5px var(--cor-primária);
+    box-shadow: 0 5px 5px var(--preto);
 }
 
 
@@ -66,4 +67,34 @@ h1{
 
 span{
     color: var(--cor-primária);
+}
+
+#lista-vinhos{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.card{
+    background: var(--cor-cards);
+    width: 250px;
+    padding: 16px;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px var(--cor-secundária);
+    margin-top: 50px;
+}
+
+.card h2{
+    margin-top: 0px;
+    color: var(--cor-secundária);
+}
+
+.card p{
+    display: flex;
+    justify-content: left;
+    padding: 5px;
+    margin: 10px;
+    color: var(--preto);
 }
